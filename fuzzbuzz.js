@@ -2,10 +2,7 @@ function isDivisibleby(i,y){
   return i % y === 0;
 }
 function Search(i,y){
-  var num = i;
-  var string = num.toString(a);
-  var a = (string.indexOf(y));
-  return a >= 0;
+  return i.toString().indexOf(y) !== -1;
 }
 
 function find(i,y){
@@ -43,3 +40,4 @@ function fizzBuzz(){
 }
 
 fizzBuzz();
+
