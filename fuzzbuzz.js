@@ -4,7 +4,7 @@ function isDivisibleby(i,y){
 function Search(i,y){
   var num = i;
   var string = num.toString(a);
-  var a = string.indexOf(y);
+  var a = (string.indexOf(y));
   return a >= 0;
 }
 
